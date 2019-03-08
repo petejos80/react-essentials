@@ -2,12 +2,12 @@ import React from "react";
 
 export class Header extends React.Component {
     render() {
+        console.log("These are props:", this.props);
         return(
             <nav>
-                This is the Navbar component
+                <span>This is the Navbar component</span>
+                <h1>{this.props.prop1}</h1>
             </nav>
         )
     }
 }
-
-export default Header
