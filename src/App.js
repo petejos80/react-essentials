@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'; 
+
+// Component import
+import { Header } from './components/Header.jsx'
+import { Home } from './components/Home.jsx' 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-        </header>
+        <Header />
+        <Home />
       </div>
     );
   }
