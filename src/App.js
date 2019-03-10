@@ -6,10 +6,10 @@ import { Header } from './components/Header.jsx'
 import { Home } from './components/Home.jsx' 
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <div className="App">
-        <Header />
+        <Header/>
         <Home />
       </div>
     );
